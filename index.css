@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap%22");
+@media only screen and (min-width: 600px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f69c;
+  }
+  .main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2rem 2rem;
+    height: 94vh;
+    width: 96vw;
+  }
+  .big-black-box {
+    width: 50%;
+    background-color: black;
+    border: none;
+  }
+  .main-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 2rem;
+    width: 50%;
+    margin: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-weight: bolder;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .burger-icon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 3rem;
+    color: #f6f69c;
+    background-color: black;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f69c;
+  }
+  .main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 2rem 2rem;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .big-black-box {
+    height: 50%;
+    background-color: black;
+    border: none;
+  }
+  .main-text {
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 2rem;
+    margin: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-weight: bolder;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .burger-icon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 1.5rem;
+    color: #f6f69c;
+    background-color: black;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=index.css.map */
